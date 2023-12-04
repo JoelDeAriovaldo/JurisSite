@@ -7,6 +7,7 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="output.css">
@@ -14,61 +15,25 @@
 </head>
 <body>
      <section class="navbar">
-        <nav class="border-gray-200 bg-red-800 dark:bg-gray-800 dark:border-gray-700">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="img/logo-juris.png" class="h-8" alt="Flowbite Logo" />
-                </a>
-                <button data-collapse-toggle="navbar-solid-bg" type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-solid-bg" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-                </button>
-                <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-                    <ul
-                        class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white
-                            aria-current="page">Início</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 
-                             dark:text-white md:dark:hover:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sobre Nós</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 
-                             dark:text-white md:dark:hover:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Leis</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 
-                             dark:text-white md:dark:hover:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfólio</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 
-                                                 dark:text-white md:dark:hover:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Parceiros
-                            </a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 
-                                                 dark:text-white md:dark:hover:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contactos
-                            </a>
-                    </li>
-
-                    </ul>
+        <header>
+            <!-- ============ Nav bar ============= -->
+            <nav class="navbar ">
+                <div class="log">
+                    <a href="#"><img src="img/logo-juris.png" alt="" /></a>
                 </div>
-            </div>
-        </nav>
-
+                <div class="menu">
+                    <div class="menu-links">
+                        <a href="#">Início</a>
+                        <a href="#">Sobre Nós</a>
+                        <a href="#">Leis</a>
+                        <a href="#">Portfólio</a>
+                        <a href="#">Parceiros</a>
+                        <a href="#">Contactos</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- ============ Nav bar ============= -->
+        </header>
      </section>
 
      <section class="intro">
@@ -132,31 +97,48 @@
      </section>
 
      <section class="about">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Sobre Projecto Juris</h2>
+        <p class="mb-4 text-1xl tracking-tight font-extrbold text-gray-900 dark:text-white text-center">Leis Moçambicanas de forma Simplificada</p>
         <section class="bg-white dark:bg-gray-900">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the
-                        wheel</h2>
+                    
                     <p class="mb-4">Juris é um projecto que vem responder a uma grande lacuna do conhecimento da informação legal do país, oferecendo
                     conteúdos sobre a lei moçambicana de forma simplificada e de fácil percepção.</p>
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="fa fa-gavel"></i></div>
-                        <h4 class="title"><a href="">Leis de Forma Simplificada</a></h4>
+                        <div class="flex items-center">
+                            <div class="icon">
+                                <i class="fa fa-gavel "></i>
+                            </div>
+                            <h4 class="">
+                                <a href="">Leis de Forma Simplificada</a>
+                            </h4>
+                        </div>
+
                         <p class="description">O App fará com que a população tenha “em mãos” as ferramentas que precisam conhecer e assim
                             defender os seus direitos.</p>
                     </div>
                     
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon"><i class="fa fa-search"></i></div>
-                        <h4 class="title"><a href="">Facilidade de Busca</a></h4>
+                        <div class="flex items-center">
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <h4 class="title">
+                                <a href="">Facilidade de Busca</a>
+                            </h4>
+                        </div>
+
                         <p class="description">
                             Aplicativo muito útil para quem quer conhecer as leis, proporcionando-lhe um acesso rápido e tudo no seu
                             telefone!</p>
                     </div>
                     
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="fa fa-signal"></i></div>
-                        <h4 class="title"><a href="">Acessibilidade</a></h4>
+                            <div class="flex items-center">
+                                <div class="icon"><i class="fa fa-signal"></i></div>
+                                <h4 class="title"><a href="">Acessibilidade</a></h4>
+                            </div>
                         <p class="description">Um aplicativo disponível no Google Play Store para smartphones com as leis moçambicanas.</p>
                     </div>
                 </div>
@@ -176,7 +158,7 @@
                 alt="office content 1">
         </div>
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Missão</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Missão</h2>
             <p class="mb-4">Com o Projecto Juris, pretende-se difundir informações legais de forma sistematizada (e de fácil acesso e consumo) tendo
             em vista a redução da falta de conhecimento sobre as leis vigentes no país por parte das populações, quer urbanas assim
             como rurais.</p>
@@ -190,9 +172,10 @@
 
 
         <section class="bg-white dark:bg-gray-900">
+            
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Visão</h2>
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Visão</h2>
                     <p class="mb-4">Temos como visão expandir as leis moçambicanas a todas as populações urbanas e rurais que tenham acesso a dispositivos
                     móveis e igualmente acesso à internet – mesmo que limitado.</p>
                     
@@ -206,362 +189,335 @@
         </section>
      </section>
 
-     <section class="service">
-        <!-- component -->
-        <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-            <div class="p-6">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
-                    class="mb-4 h-12 w-12 text-pink-500">
-                    <path fill-rule="evenodd"
-                        d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
-                        clip-rule="evenodd"></path>
-                    <path
-                        d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
-                    </path>
-                </svg>
-                <h5
-                    class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                    UI/UX Review Check
-                </h5>
-                <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                    Because it's about motivating the doers. Because I'm here to follow my
-                    dreams and inspire others.
-                </p>
-            </div>
-            <div class="p-6 pt-0">
-                <a class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500" href="#">
-                    <button
-                        class="flex select-none items-center gap-2 rounded-lg py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                        type="button" data-ripple-dark="true">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                            stroke="currentColor" aria-hidden="true" class="h-4 w-4">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3">
+    <section class=" bg-rose-500">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Leis Disponíveis
+        </h2>
+        <section class="service">
+        
+        
+            <!-- component -->
+            <div class="mt-6 grid grid-cols-3 gap-6">
+        
+                <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                    <div class="p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#A2303C" aria-hidden="true"
+                            class="mb-4 h-12 w-12 text-#A2303C">
+                            <path fill-rule="evenodd"
+                                d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                                clip-rule="evenodd"></path>
+                            <path
+                                d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
                             </path>
                         </svg>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="w-full pt-5 px-4 mb-8 mx-auto ">
-            <div class="text-sm text-gray-700 py-1">
-                Made with <a class="text-gray-700 font-semibold"
-                    href="https://www.material-tailwind.com/docs/html/card?ref=tailwindcomponents" target="_blank">Material
-                    Tailwind</a> by <a href="https://www.creative-tim.com?ref=tailwindcomponents"
-                    class="text-gray-700 font-semibold" target="_blank"> Creative Tim</a>.
-            </div>
-        </div>
+                        <h5
+                            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                            Lei da Família
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            A lei da família pode ser útil a um indivíduo, em casos de haver agressão de princípios que a própria Lei da Família
+                            regula.
+                        </p>
+                    </div>
+                    
+                </div>
         
-        <!-- stylesheet -->
-        <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css" />
-     </section>
-     
-<section id="home" class="hero-area bg-A2303C text-white py-16 md:py-60">
-    <div class="container mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center">
-            <div class="col-span-1">
-                <div class="hero-content text-left md:text-center">
-                    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight wow fadeInLeft"
-                        data-wow-delay=".4s">
-                        Baixar o Aplicativo
-                    </h1>
-                    <p class="text-lg mb-6 wow fadeInLeft" data-wow-delay=".6s">
-                        Projeto Juris já disponibilizou o aplicativo, agora na versão BETA nas plataformas Android e IOS
-                    </p>
-                    <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                        <a href="#" class="btn bg-white text-A2303C mr-2"><i class="lni lni-apple"></i> App Store</a>
-                        <a href="#" class="btn btn-alt bg-white text-A2303C"><i class="lni lni-play-store"></i> Google
-                            Play</a>
+                <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                    <div class="p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#A2303C" aria-hidden="true"
+                            class="mb-4 h-12 w-12 text-pink-500">
+                            <path fill-rule="evenodd"
+                                d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                                clip-rule="evenodd"></path>
+                            <path
+                                d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
+                            </path>
+                        </svg>
+                        <h5
+                            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                            Lei de Terra
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            Lei de terra Regula o acesso e o uso da terra em Moçambique. uso, acesso, exploração.Lei de terra Regula o acesso e o
+                            uso da terra em Moçambique.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                    <div class="p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#A2303C" aria-hidden="true"
+                            class="mb-4 h-12 w-12 text-pink-500">
+                            <path fill-rule="evenodd"
+                                d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                                clip-rule="evenodd"></path>
+                            <path
+                                d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
+                            </path>
+                        </svg>
+                        <h5
+                            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                            Lei de Trânsito
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            O Código de Estrada pode socorrer a um indivíduo para rápida consulta em casos de necessidade de modo a gerir situações
+                            de sinistros ou outras nas estradas.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                    <div class="p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#A2303C" aria-hidden="true"
+                            class="mb-4 h-12 w-12 text-pink-500">
+                            <path fill-rule="evenodd"
+                                d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                                clip-rule="evenodd"></path>
+                            <path
+                                d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
+                            </path>
+                        </svg>
+                        <h5
+                            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                        Lei de Trabalho
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            Lei do Trabalho visa regular as relações individuais e colectivas (Público-Privado) existente entre Trabalhador e
+                            empregador (nacionais e estrangeiros).
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                    <div class="p-6">
+                        <div class="icon">
+                            <i class="fa fa-gavel e"></i>
+                        </div>
+                        <h5
+                            class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                            Lei do Consumidor
+                        </h5>
+                        <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                            O Código de Defesa do Consumidor tem por objetivo primordial proteger e defender o consumidor que em regra é a parte
+                            hipossuficiente nas relações de consumo.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col-span-1">
-                <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                    <img src="img/cell.png" alt="#" class="w-full">
+        
+            <!-- stylesheet -->
+            <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css" />
+        </section>
+    </section>
+     
+
+<section class="">
+<!-- component -->
+<section class="bg-red-300 dark:bg-gray-900">
+    <div class="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
+        <div class="flex justify-center xl:w-1/2">
+            <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] "
+                src="img/cell.png"
+                alt="">
+        </div>
+
+        <div class="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-800 xl:text-4xl dark:text-white">
+                Baixar o Aplicativo
+            </h2>
+
+            <p class="block max-w-2xl mt-4 text-xl text-white dark:text-gray-300 text-center" >Projeto Juris já disponibilizou o aplicativo, agora na versão BETA nas plataformas Android e IOS</p>
+
+            <div class="mt-6 sm:-mx-2">
+                <div class="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
+                    <a href="#"
+                        class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-600 sm:w-auto">
+                        <svg class="w-6 h-6 mx-2 fill-current" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M407,0H105C47.103,0,0,47.103,0,105v302c0,57.897,47.103,105,105,105h302c57.897,0,105-47.103,105-105V105
+                                            C512,47.103,464.897,0,407,0z M482,407c0,41.355-33.645,75-75,75H105c-41.355,0-75-33.645-75-75V105c0-41.355,33.645-75,75-75h302
+                                            c41.355,0,75,33.645,75,75V407z"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M305.646,123.531c-1.729-6.45-5.865-11.842-11.648-15.18c-11.936-6.892-27.256-2.789-34.15,9.151L256,124.166
+                                            l-3.848-6.665c-6.893-11.937-22.212-16.042-34.15-9.151h-0.001c-11.938,6.893-16.042,22.212-9.15,34.151l18.281,31.664
+                                            L159.678,291H110.5c-13.785,0-25,11.215-25,25c0,13.785,11.215,25,25,25h189.86l-28.868-50h-54.079l85.735-148.498
+                                            C306.487,136.719,307.375,129.981,305.646,123.531z"></path>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M401.5,291h-49.178l-55.907-96.834l-28.867,50l86.804,150.348c3.339,5.784,8.729,9.921,15.181,11.65
+                                            c2.154,0.577,4.339,0.863,6.511,0.863c4.332,0,8.608-1.136,12.461-3.361c11.938-6.893,16.042-22.213,9.149-34.15L381.189,341
+                                            H401.5c13.785,0,25-11.215,25-25C426.5,302.215,415.285,291,401.5,291z">
+                                    </path>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path d="M119.264,361l-4.917,8.516c-6.892,11.938-2.787,27.258,9.151,34.15c3.927,2.267,8.219,3.345,12.458,3.344
+                                            c8.646,0,17.067-4.484,21.693-12.495L176.999,361H119.264z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="mx-2">
+                            Baixe na App Store
+                        </span>
+                    </a>
+                </div>
+
+                <div class="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0">
+                    <a href="#"
+                        class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900 hover:from-blue-600 hover:to-blue-600">
+                        <svg class="w-6 h-6 mx-2 fill-current" viewBox="-28 0 512 512.00075"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0">
+                            </path>
+                        </svg>
+                        <span class="mx-2">
+                            Baixe na Google Play
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+</section>iv>
     </div>
 </section>
 
 <section>
-    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor" viewBox="0 0 20 20">
-            <path
-                d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
-        </svg>
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to
-            certify for your weekly benefits:</p>
-        <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
-            See our guideline
-            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 18 18">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
-            </svg>
-        </a>
-    </div>
+    <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+        <div class="-m-1 flex flex-wrap md:-m-2">
+            <div class="flex w-1/3 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                        src="img/Thumbnails.jpg" />
+                </div>
+            </div>
+            <div class="flex w-1/3 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                        src="img/Thumbnails.jpg" />
+                </div>
+            </div>
+            <div class="flex w-1/3 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                        src="img/Thumbnails.jpg" />
+                </div>
+            </div>
 
-    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor" viewBox="0 0 20 20">
-            <path
-                d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
-        </svg>
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to
-            certify for your weekly benefits:</p>
-        <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
-            See our guideline
-            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 18 18">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
-            </svg>
-        </a>
+        </div>
     </div>
-
-    <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor" viewBox="0 0 20 20">
-            <path
-                d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z" />
-        </svg>
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Need a help in Claim?</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to
-            certify for your weekly benefits:</p>
-        <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
-            See our guideline
-            <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 18 18">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
-            </svg>
-        </a>
-    </div>
-
 </section>
 
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-sm">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimonials</h2>
-            <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection
-                of open-source web components and elements built with the utility classes from Tailwind</p>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Comentários</h2>
+            
         </div>
         <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
             <figure
                 class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Speechless with how easy this was to
-                        integrate</h3>
-                    <p class="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how
-                        easy this was to integrate within my application. Most templates are a pain, code is scattered,
-                        and near impossible to theme.</p>
-                    <p class="my-4">Flowbite has code in one place and I'm not joking when I say it took me a matter of
-                        minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
-                    <p class="my-4">If you care for your time, I hands down would go with this."</p>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Símples e Practico! Agora sei mais sobre a lei!</h3>
+                    
                 </blockquote>
                 <figcaption class="flex justify-center items-center space-x-3">
                     <img class="w-9 h-9 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+                        src="img/Jon.png"
                         alt="profile picture">
                     <div class="space-y-0.5 font-medium dark:text-white text-left">
-                        <div>Bonnie Green</div>
-                        <div class="text-sm font-light text-gray-500 dark:text-gray-400">Developer at Open AI</div>
+                        <div>Jon Reinagel</div>
                     </div>
                 </figcaption>
             </figure>
-            <figure
-                class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-                <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Solid foundation for any project
-                    </h3>
-                    <p class="my-4">"FlowBite provides a robust set of design tokens and components based on the popular
-                        Tailwind CSS framework. From the most used UI components like forms and navigation bars to the
-                        whole app screens designed both for desktop and mobile, this UI kit provides a solid foundation
-                        for any project.</p>
-                    <p class="my-4">Designing with Figma components that can be easily translated to the utility classes
-                        of Tailwind CSS is a huge timesaver!"</p>
-                </blockquote>
-                <figcaption class="flex justify-center items-center space-x-3">
-                    <img class="w-9 h-9 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-                        alt="profile picture">
-                    <div class="space-y-0.5 font-medium dark:text-white text-left">
-                        <div>Roberta Casas</div>
-                        <div class="text-sm font-light text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
-                    </div>
-                </figcaption>
-            </figure>
-            <figure
-                class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-                <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mindblowing workflow and variants
-                    </h3>
-                    <p class="my-4">"As someone who mainly designs in the browser, I've been a casual user of Figma, but
-                        as soon as I saw and started playing with FlowBite my mind was 🤯.</p>
-                    <p class="my-4">Everything is so well structured and simple to use (I've learnt so much about Figma
-                        by just using the toolkit).</p>
-                    <p class="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level
-                        up your next application."</p>
-                </blockquote>
-                <figcaption class="flex justify-center items-center space-x-3">
-                    <img class="w-9 h-9 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                        alt="profile picture">
-                    <div class="space-y-0.5 font-medium dark:text-white text-left">
-                        <div>Jese Leos</div>
-                        <div class="text-sm font-light text-gray-500 dark:text-gray-400">Software Engineer at Facebook
-                        </div>
-                    </div>
-                </figcaption>
-            </figure>
-            <figure
-                class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-                <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Efficient Collaborating</h3>
-                    <p class="my-4">"This is a very complex and beautiful set of elements. Under the hood it comes with
-                        the best things from 2 different worlds: Figma and Tailwind.</p>
-                    <p class="my-4">You have many examples that can be used to create a fast prototype for your team."
-                    </p>
-                </blockquote>
-                <figcaption class="flex justify-center items-center space-x-3">
-                    <img class="w-9 h-9 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
-                        alt="profile picture">
-                    <div class="space-y-0.5 font-medium dark:text-white text-left">
-                        <div>Joseph McFall</div>
-                        <div class="text-sm font-light text-gray-500 dark:text-gray-400">CTO at Google</div>
-                    </div>
-                </figcaption>
-            </figure>
+        <figure
+            class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Bom aplicativo, Recomendo</h3>
+        
+            </blockquote>
+            <figcaption class="flex justify-center items-center space-x-3">
+                <img class="w-9 h-9 rounded-full" src="img/felizardo.png" alt="profile picture">
+                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                    <div>Felizardo Mechica</div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure
+            class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">like</h3>
+        
+            </blockquote>
+            <figcaption class="flex justify-center items-center space-x-3">
+                <img class="w-9 h-9 rounded-full" src="img/alex.png" alt="profile picture">
+                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                    <div>Adelito Mutane</div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure
+            class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+            <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">... Gostei
+                </h3>
+        
+            </blockquote>
+            <figcaption class="flex justify-center items-center space-x-3">
+                <img class="w-9 h-9 rounded-full" src="img/Paulo.png" alt="profile picture">
+                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                    <div>Paulo Rosa</div>
+                </div>
+            </figcaption>
+        </figure>
         </div>
         <div class="text-center">
             <a href="#"
-                class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Show
-                more...</a>
+                class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                Mostre mais...</a>
         </div>
 </section>
 
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-            <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of
-                open-source web components and elements built with the utility classes from Tailwind</p>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Parceiros</h2>
+            <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Entidades que tornaram o aplicativo Juris uma realidade.</p>
         </div>
         <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
             <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                        src="img/equipe (1).svg"
                         alt="Bonnie Avatar">
                 </a>
                 <div class="p-5">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">Bonnie Green</a>
+                        <a href="#">Empoderando Moçambique</a>
                     </h3>
-                    <span class="text-gray-500 dark:text-gray-400">CEO & Web Developer</span>
-                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Bonnie drives the technical
-                        strategy of the flowbite platform and brand.</p>
-                    <ul class="flex space-x-4 sm:mt-0">
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path
-                                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                     
+                        
                 </div>
             </div>
             <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                        src="img/amac.png"
                         alt="Jese Avatar">
                 </a>
                 <div class="p-5">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">Jese Leos</a>
+                        <a href="#">Associação moçambicana dos advogados cristãos</a>
                     </h3>
-                    <span class="text-gray-500 dark:text-gray-400">CTO</span>
-                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Jese drives the technical strategy
-                        of the flowbite platform and brand.</p>
-                    <ul class="flex space-x-4 sm:mt-0">
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path
-                                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                   
                 </div>
             </div>
             
@@ -573,15 +529,12 @@
 <section>
     <section class="bg-white dark:bg-gray-900">
         <div class="container px-6 py-12 mx-auto">
-            <div>
-                <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+            <div class="flex flex-col items-center">
+                <p class="font-medium text-blue-500 dark:text-blue-400 " >Contactos</p>
     
                 <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
-    
-                <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team would love to hear from you.</p>
             </div>
-    
-            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+            <div class="grid grid-cols-2 gap-12 mt-10 lg:grid-cols-3">
                 <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
                     <div>
                         <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
@@ -593,8 +546,8 @@
                         </span>
     
                         <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Nossa simpática equipe está aqui para ajudar.</p>
+                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">info@juris.co.mz</p>
                     </div>
     
                     <div>
@@ -609,23 +562,9 @@
                         </span>
     
                         <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Venha dizer olá em nosso escritório.</p>
+                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">Rua Pero de Covilha, 129
                         </p>
-                    </div>
-    
-                    <div>
-                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-5 h-5">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                            </svg>
-                        </span>
-    
-                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
-                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                        <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
                     </div>
                 </div>
     
@@ -640,40 +579,132 @@
 </section>
 
 <section>
-    <!-- component -->
-    <!-- This is an example component -->
-    <div class=" bg-gray-900">
-        <div class="max-w-2xl mx-auto text-white py-10">
-            <div class="text-center">
-                <h3 class="text-3xl mb-3"> Download our fitness app </h3>
-                <p> Stay fit. All day, every day. </p>
-                <div class="flex justify-center my-10">
-                    <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
-                        <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8">
-                        <div class="text-left ml-3">
-                            <p class='text-xs text-gray-200'>Download on </p>
-                            <p class="text-sm md:text-base"> Google Play Store </p>
-                        </div>
-                    </div>
-                    <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">
-                        <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8">
-                        <div class="text-left ml-3">
-                            <p class='text-xs text-gray-200'>Download on </p>
-                            <p class="text-sm md:text-base"> Apple Store </p>
-                        </div>
-                    </div>
-                </div>
+<!-- Footer container -->
+<footer class="bg-red-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+    <div
+        class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+        <div class="mr-12 hidden lg:block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Social network icons container -->
+        <div class="flex justify-center">
+            <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                </svg>
+            </a>
+            <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                </svg>
+            </a>
+           
+            <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+            </a>
+            <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                </svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <!-- Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+    <div class="mx-6 py-10 text-center md:text-right">
+        <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <!-- TW elements section -->
+            <div class="">
+                <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="mr-3 h-4 w-4">
+                        <path
+                            d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
+                    </svg>
+                    JURIS
+                </h6>
+                <p>
+                    Juris é um projecto que vem responder a uma grande lacuna do conhecimento da informação legal do país, oferecendo
+                    conteúdos sobre a lei moçambicana de forma simplificada e de fácil percepção.
+                </p>
             </div>
-            <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-                <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Beautiful Footer, 2021. </p>
-                <div class="order-1 md:order-2">
-                    <span class="px-2">About us</span>
-                    <span class="px-2 border-l">Contact us</span>
-                    <span class="px-2 border-l">Privacy Policy</span>
-                </div>
+            <!-- Products section -->
+            <div class="">
+                <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                    LINKS UTEIS
+                </h6>
+                <p class="mb-4">
+                    <a href="#!" class="text-neutral-600 dark:text-neutral-200">Inicio</a>
+                </p>
+                <p class="mb-4">
+                    <a href="#!" class="text-neutral-600 dark:text-neutral-200">Sobre Nos</a>
+                </p>
+                <p class="mb-4">
+                    <a href="#!" class="text-neutral-600 dark:text-neutral-200">Leis</a>
+                </p>
+            </div>
+           
+            <!-- Contact section -->
+            <div>
+                <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                    CONTACTOS
+                </h6>
+                <p class="mb-4 flex items-center justify-center md:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="mr-3 h-5 w-5">
+                        <path
+                            d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                        <path
+                            d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                    </svg>
+                    Rua Pero de covilha
+                </p>
+                <p class="mb-4 flex items-center justify-center md:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="mr-3 h-5 w-5">
+                        <path
+                            d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                        <path
+                            d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                    </svg>
+                    Matacuane, Beira
+                </p>
+                <p class="mb-4 flex items-center justify-center md:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="mr-3 h-5 w-5">
+                        <path fill-rule="evenodd"
+                            d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Sofala, Moçambique
+                </p>
+                <p class="flex items-center justify-center md:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="mr-3 h-5 w-5">
+                        <path fill-rule="evenodd"
+                            d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
+                            clip-rule="evenodd" />
+                    </svg>
+                Email: info@equipmoz
+                </p>
             </div>
         </div>
     </div>
+
+    <!--Copyright section-->
+    <div class="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
+        <span>© 2023 Copyright:</span>
+        <a class="font-semibold text-neutral-600 dark:text-neutral-400" href="https://tw-elements.com/">Equipmoz</a>
+    </div>
+</footer>
+
 </section>
 
 </body>
