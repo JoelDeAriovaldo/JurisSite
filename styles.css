@@ -69,3 +69,37 @@ body {
     flex-wrap: wrap;
     height: 97vh;
 }
+
+.icon{
+    color: #A2303C;
+}
+
+.title{
+    color: #A2303C;
+}
+
+.leis-disp {
+    background-color: #fdf3f3;
+}
+
+.aabout{
+    background-color: #fdf3f3;
+}
+
+.coment {
+    background-color: #fdf3f3;
+}
+
+.portifolio{
+    background-color: #BF3F49;
+}
+
+.contact{
+    background-color: #fdf3f3;
+}
+
+.intro-bg{
+    background-image: url('img/gavel-2492011_1280.jpg');
+    opacity: 0.75;
+}
+
