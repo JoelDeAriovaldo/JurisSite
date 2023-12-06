@@ -8,12 +8,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
-    background: #fff;
+    background-color: #fffdfd;
     color: #444;
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -79,11 +89,22 @@ body {
 }
 
 .leis-disp {
-    background-color: #FDF3F3;
+    background-color: #fdf3f309;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.aabout{
-    background-color: #fdf3f3;
+.ls {
+    background-color: #fdf3f309;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.about{
+    background-color: #fdf3f327;
 }
 
 .coment {
@@ -104,5 +125,9 @@ body {
 .intro-bg{
     background-image: url('img/gavel-2492011_1280.jpg');
     opacity: 0.75;
+}
+
+.intro {
+    background-color: #FFF;
 }
 
