@@ -79,7 +79,7 @@ body {
 }
 
 .leis-disp {
-    background-color: #fdf3f3;
+    background-color: #FDF3F3;
 }
 
 .aabout{
@@ -95,9 +95,12 @@ body {
 }
 
 .contact{
-    background-color: #fdf3f3;
+    background-color: white;
 }
 
+.footer{
+    background-color: #A2303C;
+}
 .intro-bg{
     background-image: url('img/gavel-2492011_1280.jpg');
     opacity: 0.75;
